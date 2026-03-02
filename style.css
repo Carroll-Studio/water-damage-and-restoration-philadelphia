@@ -516,11 +516,12 @@
 }
 
 .nav-glass__logo-img {
-  height: 40px;
+  height: 60px;
   width: auto;
-  max-width: 120px;
+  max-width: 180px;
   object-fit: contain;
   display: block;
+  mix-blend-mode: multiply;
 }
 
 .nav-glass__links {
@@ -899,11 +900,12 @@ textarea.input-pill {
 }
 
 .footer__logo-img {
-  height: 48px;
+  height: 70px;
   width: auto;
-  max-width: 150px;
+  max-width: 220px;
   object-fit: contain;
   display: block;
+  mix-blend-mode: multiply;
 }
 
 /* Footer form */
