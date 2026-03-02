@@ -1,4 +1,4 @@
-/* style.css — Xtreme Heating & Air — Design Tokens + Components */
+/* style.css — Water Damage & Restoration Philadelphia — Design Tokens + Components */
 
 /* ============================================
    FONTS
@@ -78,24 +78,24 @@
   --color-text-faint:     #9A9AAE;
   --color-text-inverse:   #FFFFFF;
 
-  /* --- Primary (Purple) --- */
-  --color-primary:        #6D28D9;
-  --color-primary-hover:  #5B21B6;
-  --color-primary-active: #4C1D95;
-  --color-primary-highlight: #EDE9FE;
+  /* --- Primary (Eagles Midnight Green) --- */
+  --color-primary:        #004C97;
+  --color-primary-hover:  #003d7a;
+  --color-primary-active: #002d5a;
+  --color-primary-highlight: #E8F0F8;
 
-  /* --- Secondary (Light Purple) --- */
-  --color-secondary:      #8B5CF6;
-  --color-secondary-hover: #7C3AED;
-  --color-secondary-active: #6D28D9;
-  --color-secondary-highlight: #F3E8FF;
+  /* --- Secondary (Eagles Dark Green) --- */
+  --color-secondary:      #1a6a38;
+  --color-secondary-hover: #0f5a2c;
+  --color-secondary-active: #004C97;
+  --color-secondary-highlight: #E8F5F0;
 
-  /* --- Accent Lime Green --- */
-  --color-gold:           #84CC16;
-  --color-gold-hover:     #65A30D;
-  --color-gold-active:    #559909;
-  --color-gold-highlight: #F0FDE8;
-  --color-gold-text:      #1F2E07;
+  /* --- Accent (Eagles Silver) --- */
+  --color-gold:           #A5ACAF;
+  --color-gold-hover:     #8e9599;
+  --color-gold-active:    #777d81;
+  --color-gold-highlight: #F0F2F3;
+  --color-gold-text:      #1A1A1A;
 
   /* --- Semantic --- */
   --color-success:        #2D8C3C;
@@ -110,47 +110,47 @@
   /* --- Glass --- */
   --glass-bg: rgba(255, 255, 255, 0.72);
   --glass-border: rgba(255, 255, 255, 0.3);
-  --glass-shadow: 0 8px 32px rgba(109, 40, 217, 0.08);
+  --glass-shadow: 0 8px 32px rgba(0, 76, 151, 0.08);
 }
 
 /* ============================================
    DARK MODE
    ============================================ */
 [data-theme="dark"] {
-  /* --- Surfaces (Deep Purple) --- */
-  --color-bg:             #0A0A1C;
-  --color-surface:        #12101F;
-  --color-surface-2:      #1A152E;
-  --color-surface-offset: #141032;
-  --color-surface-offset-2: #1C1644;
-  --color-surface-dynamic: #24184C;
-  --color-divider:        #2A1858;
-  --color-border:         #341F62;
+  /* --- Surfaces (Deep Green) --- */
+  --color-bg:             #0a0f1a;
+  --color-surface:        #0f1621;
+  --color-surface-2:      #15202d;
+  --color-surface-offset: #131c2a;
+  --color-surface-offset-2: #1a2438;
+  --color-surface-dynamic: #1f2d3d;
+  --color-divider:        #2a3a52;
+  --color-border:         #36475f;
 
   /* --- Text --- */
-  --color-text:           #E0D9EC;
-  --color-text-muted:     #8A7CA0;
-  --color-text-faint:     #5A5270;
-  --color-text-inverse:   #0A0A1C;
+  --color-text:           #E0E8F0;
+  --color-text-muted:     #8a9baf;
+  --color-text-faint:     #5a6b7d;
+  --color-text-inverse:   #0a0f1a;
 
-  /* --- Primary (Lighter Purple for dark bg) --- */
-  --color-primary:        #A78BFA;
-  --color-primary-hover:  #C4B5FD;
-  --color-primary-active: #DDD6FE;
-  --color-primary-highlight: #2E1A47;
+  /* --- Primary (Light Eagles Green for dark bg) --- */
+  --color-primary:        #4a9dcc;
+  --color-primary-hover:  #5faee0;
+  --color-primary-active: #7fbef5;
+  --color-primary-highlight: #0f2743;
 
   /* --- Secondary --- */
-  --color-secondary:      #D8B4FE;
-  --color-secondary-hover: #E9D5FF;
-  --color-secondary-active: #F3E8FF;
-  --color-secondary-highlight: #2E1A47;
+  --color-secondary:      #6ba8d8;
+  --color-secondary-hover: #7fb8e8;
+  --color-secondary-active: #a0cef5;
+  --color-secondary-highlight: #0f2743;
 
-  /* --- Accent Lime --- */
-  --color-gold:           #BEF264;
-  --color-gold-hover:     #DCFCE7;
-  --color-gold-active:    #ECFDF5;
-  --color-gold-highlight: #1F2E07;
-  --color-gold-text:      #0A0A1C;
+  /* --- Accent (Silver) --- */
+  --color-gold:           #c0c5ca;
+  --color-gold-hover:     #d0d5da;
+  --color-gold-active:    #e0e5ea;
+  --color-gold-highlight: #1a1f25;
+  --color-gold-text:      #0a0f1a;
 
   /* --- Semantic --- */
   --color-success:        #4CAF50;
@@ -163,47 +163,47 @@
   --shadow-xl: 0 20px 48px oklch(0 0 0 / 0.6);
 
   /* --- Glass --- */
-  --glass-bg: rgba(18, 16, 31, 0.78);
-  --glass-border: rgba(109, 40, 217, 0.15);
+  --glass-bg: rgba(10, 15, 26, 0.78);
+  --glass-border: rgba(0, 76, 151, 0.15);
   --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 }
 
 /* System preference fallback */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme]) {
-    --color-bg:             #0A0A1C;
-    --color-surface:        #12101F;
-    --color-surface-2:      #1A152E;
-    --color-surface-offset: #141032;
-    --color-surface-offset-2: #1C1644;
-    --color-surface-dynamic: #24184C;
-    --color-divider:        #2A1858;
-    --color-border:         #341F62;
-    --color-text:           #E0D9EC;
-    --color-text-muted:     #8A7CA0;
-    --color-text-faint:     #5A5270;
-    --color-text-inverse:   #0A0A1C;
-    --color-primary:        #A78BFA;
-    --color-primary-hover:  #C4B5FD;
-    --color-primary-active: #DDD6FE;
-    --color-primary-highlight: #2E1A47;
-    --color-secondary:      #D8B4FE;
-    --color-secondary-hover: #E9D5FF;
-    --color-secondary-active: #F3E8FF;
-    --color-secondary-highlight: #2E1A47;
-    --color-gold:           #BEF264;
-    --color-gold-hover:     #DCFCE7;
-    --color-gold-active:    #ECFDF5;
-    --color-gold-highlight: #1F2E07;
-    --color-gold-text:      #0A0A1C;
+    --color-bg:             #0a0f1a;
+    --color-surface:        #0f1621;
+    --color-surface-2:      #15202d;
+    --color-surface-offset: #131c2a;
+    --color-surface-offset-2: #1a2438;
+    --color-surface-dynamic: #1f2d3d;
+    --color-divider:        #2a3a52;
+    --color-border:         #36475f;
+    --color-text:           #E0E8F0;
+    --color-text-muted:     #8a9baf;
+    --color-text-faint:     #5a6b7d;
+    --color-text-inverse:   #0a0f1a;
+    --color-primary:        #4a9dcc;
+    --color-primary-hover:  #5faee0;
+    --color-primary-active: #7fbef5;
+    --color-primary-highlight: #0f2743;
+    --color-secondary:      #6ba8d8;
+    --color-secondary-hover: #7fb8e8;
+    --color-secondary-active: #a0cef5;
+    --color-secondary-highlight: #0f2743;
+    --color-gold:           #c0c5ca;
+    --color-gold-hover:     #d0d5da;
+    --color-gold-active:    #e0e5ea;
+    --color-gold-highlight: #1a1f25;
+    --color-gold-text:      #0a0f1a;
     --color-success:        #4CAF50;
     --color-error:          #E57373;
     --shadow-sm: 0 1px 2px oklch(0 0 0 / 0.3);
     --shadow-md: 0 4px 12px oklch(0 0 0 / 0.4);
     --shadow-lg: 0 12px 32px oklch(0 0 0 / 0.5);
     --shadow-xl: 0 20px 48px oklch(0 0 0 / 0.6);
-    --glass-bg: rgba(18, 16, 31, 0.78);
-    --glass-border: rgba(109, 40, 217, 0.15);
+    --glass-bg: rgba(10, 15, 26, 0.78);
+    --glass-border: rgba(0, 76, 151, 0.15);
     --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
   }
 }
