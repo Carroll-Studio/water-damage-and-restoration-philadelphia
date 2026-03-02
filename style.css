@@ -505,14 +505,15 @@
 
 .nav-glass__logo {
   font-family: var(--font-display);
-  font-size: var(--text-lg);
+  font-size: 28px;
   font-weight: 700;
-  color: var(--color-text);
+  color: var(--color-primary);
   text-decoration: none;
   white-space: nowrap;
   display: flex;
   align-items: center;
   height: auto;
+  letter-spacing: -0.5px;
 }
 
 .nav-glass__logo-img {
@@ -897,6 +898,11 @@ textarea.input-pill {
 
 .footer__logo {
   margin-bottom: var(--space-4);
+  font-family: var(--font-display);
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--color-gold);
+  letter-spacing: -0.5px;
 }
 
 .footer__logo-img {
